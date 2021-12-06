@@ -1,2 +1,43 @@
-h1{color:red;
-   font-size:200px;}
+h1{
+  text-align:center;
+  font-size:40px;
+}
+h{
+  position:absolute;
+  right:0px;
+  top:0px;
+  padding:10px 20px;
+}
+
+
+
+p{
+  background-color:#AA00E1;
+  width:400px;
+  height:200px;
+  border:1px solid black;
+  float:left;
+  margin-right:30px;
+  position:relative;
+  left:40px;
+  font-family:monospace;
+  font-size:15px;
+}
+
+
+#p1{
+  color:white;
+  
+  
+  
+}
+
+#p2{
+  color:white;
+  
+}
+
+#p3{
+  color:white;
+  
+}
