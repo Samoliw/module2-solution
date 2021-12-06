@@ -68,7 +68,12 @@ p{
 }
 
 @media (min-width:768px) and (max-width:991px){
-    #p1{
+   
+   h1{
+    position:relative;
+    left:0%;
+  }
+  #p1{
   color:white;
    width:40%;
   height:200px;
@@ -96,7 +101,12 @@ p{
 }
 
 @media(max-width: 767px){
-    #p1 {
+  
+  h1{
+    position:relative;
+    left:5%;
+  }
+  #p1 {
   color:white;
    width:400px;
   height:200px;
