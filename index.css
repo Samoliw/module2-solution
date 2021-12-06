@@ -1,46 +1,128 @@
-<!Doctype html>
+h1{
+  text-align:center;
+  font-size:40px;
+}
+h{
+  position:absolute;
+  right:0px;
+  top:0px;
+  padding:10px 20px;
+}
 
-<html>
-  <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />  
-    <link rel="stylesheet"  href="index.css">
-    
-<style>
 
 
+p{
+  background-color:#AA00E1;
+  border:1px solid black;
+  float:left;
+  margin-right:30px;
+  position:relative;
+  left:40px;
+  font-family:monospace;
+  font-size:15px;
+}
 
-</style>
 
-      <meta charset="utf-8">
-      <title>Welcome to my portofilio :)</title>
-  </head>
- <body>
-   
-<div>
-  
-  <h1>Our Menu</h1>
-  
-</div>   
-   
-<div>
-  <p id="p1"><h style="background-color:#E1008C;">Beef</h><br><br><br>
-   publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
-    Lorem ipsum may be used as a placeholder before the final copy is available.
-  </p>
-  <p id="p2"><h style="background-color:#14E100;">Chicken</h><br><br><br>
-   publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
-    Lorem ipsum may be used as a placeholder before the final copy is available.
-  </p>
-  <p id="p3"><h style="background-color:#E1008C;">Sushi</h><br><br><br>
-  publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
-    Lorem ipsum may be used as a placeholder before the final copy is available.  
-  </p>
-</div>
-  
-  </body>
+#p1{
+  color:white;
+   width:400px;
+  height:200px;
   
   
+}
+
+#p2{
+  color:white;
+   width:400px;
+  height:200px;
+}
+
+#p3{
+  color:white;
+   width:400px;
+  height:200px;
+}
+
+
+@media (min-width:992px) {
+  #p1{
+  color:white;
+   width:3000%px;
+  height:200px;
   
   
+}
+
+#p2{
+  color:white;
+   width:30%px;
+  height:200px;
+}
+
+#p3{
+  color:white;
+   width:30%px;
+  height:200px;
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #p1{
+  color:white;
+   width:40%;
+  height:200px;
+  position:relative;
+   left:8%;
   
-</html>
+  
+}
+
+#p2{
+  color:white;
+   width:40%;
+  height:200px;
+  position:relative;
+   left:8%;
+}
+
+#p3{
+  color:white;
+   width:84%;
+  height:200px;
+  position:relative;
+   left:8%;
+}
+}
+
+@media(max-width: 767px){
+    #p1 {
+  color:white;
+   width:400px;
+  height:200px;
+   position:relative;
+   left:20%;
+  
+  
+}
+
+#p2{
+  float:center;
+  color:white;
+   width:400px;
+  height:200px;
+  position:relative;
+   left:20%;
+  
+}
+
+#p3{
+  color:white;
+   width:400px;
+  height:200px;
+  position:relative;
+   left:20%;
+  
+}
+  
+}
